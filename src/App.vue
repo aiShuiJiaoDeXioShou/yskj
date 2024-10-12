@@ -5,6 +5,8 @@ onLaunch(() => {
   console.log('App Launch')
 })
 onShow(() => {
+  // 隐藏底部tabbar
+  uni.hideTabBar()
   console.log('App Show')
 })
 onHide(() => {

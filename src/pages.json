@@ -32,8 +32,8 @@
       {
         "iconPath": "static/tabbar/example.png",
         "selectedIconPath": "static/tabbar/exampleHL.png",
-        "pagePath": "pages/about/about",
-        "text": "关于"
+        "pagePath": "pages/shop/index",
+        "text": "商城"
       }
     ]
   },
@@ -47,10 +47,27 @@
       }
     },
     {
-      "path": "pages/about/about",
+      "path": "pages/product/index",
       "type": "page",
+      "layout": "default",
       "style": {
-        "navigationBarTitleText": "商城"
+        "navigationBarTitleText": "商品详情"
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "搜索页面"
+      }
+    },
+    {
+      "path": "pages/shop/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "宇森科技软件商城"
       }
     }
   ],
